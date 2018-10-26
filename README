@@ -1,0 +1,11 @@
+General idea:
+Invocation: Ok, Google! Talk to Creepy Sounds!
+
+Every bot's response begins with a creepy sound (monsters/zombie etc) and then some child cry is 
+played in a long loop (for eg., 40sec * 15times = 600sec/10min)
+
+The only intent is 
+
+
+
+bot is playing some kids cry/screem sounds and when it gets some input (either everythin to Default Fallback intent or with some differentiation to intents) it suddenly plays some creepy sounds
