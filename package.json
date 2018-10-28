@@ -4,7 +4,9 @@
   "description": "\"Creepy Sounds Google Action for Google Home/Google Assistant (for Halloween)\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "firebase serve --only functions:dialogflowFirebaseFulfillment",
+    "deploy": "firebase deploy --only functions:dialogflowFirebaseFulfillment"    
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/IuriiD/creepy_sounds/issues"
   },
-  "homepage": "https://github.com/IuriiD/creepy_sounds#readme"
+  "homepage": "https://github.com/IuriiD/creepy_sounds#readme",
+  "dependencies": {
+    "actions-on-google": "^2.2.0",
+    "firebase-admin": "^5.13.1",
+    "firebase-functions": "^2.0.2",
+    "dialogflow": "^0.6.0",
+    "dialogflow-fulfillment": "^0.5.0"
+  }  
 }
